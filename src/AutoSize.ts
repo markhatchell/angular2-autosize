@@ -1,5 +1,8 @@
-﻿import { ElementRef, HostListener } from "@angular/core";
+﻿import { Directive, ElementRef, HostListener } from "@angular/core";
 
+@Directive({
+    selector: "textarea[autosize]"
+})
 export class AutoSize {
     @HostListener("input", ["$event.target"])
     onInput(textArea: HTMLTextAreaElement): void {
