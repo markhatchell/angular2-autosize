@@ -1,12 +1,15 @@
 {
-  "name": "angular2-autosize",
+  "name": "angular2-autosize-dumpen",
   "version": "1.0.0",
   "description": "Directive that automatically adjusts textarea height to fit content",
+  "main": "components.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevepapa/angular2-autosize.git"
-  },
-  "scripts": {
+    "url": "git+https://github.com/Dumpen/angular2-autosize.git"
   },
   "keywords": [
     "ng2",
@@ -19,18 +22,15 @@
     "@angular"
   ],
   "author": "Steve Papa <dev@stevepapa.com>",
-  "main": "angular2-autosize.ts",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
     "@angular/core": "2.0.0",
-    "@angular/forms": "2.0.0",
-    "@angular/platform-browser": "2.0.0",
-    "@angular/platform-browser-dynamic": "2.0.0",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "^0.6.21",
-    "typings": "^1.3.2",
-    "typescript": "^1.7.3"
+    "zone.js": "^0.6.23",
+    "rxjs": "5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.2"
   }
 }
