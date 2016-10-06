@@ -1,16 +1,22 @@
 {
   "name": "angular2-autosize-dumpen",
-  "version": "1.0.3",
-  "description": "Directive that automatically adjusts textarea height to fit content",
-  "scripts": {
-    "watch": "tsc -p src -w",
-    "build": "copy package.json lib/package.json && tsc -p src"
+  "version": "1.0.7",
+  "description": "Simple tooltip control for your angular2 applications using bootstrap3.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "private": true,
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dumpen/angular2-autosize.git"
+    "url": "https://github.com/Dumpen/angular2-autosize"
   },
-  "keywords": [
+  "bugs": {
+    "url": "https://github.com/Dumpen/angular2-autosize/issues"
+  },
+  "tags": [
     "ng2",
     "angular",
     "angular2",
@@ -20,16 +26,36 @@
     "height",
     "@angular"
   ],
-  "author": "Steve Papa <dev@stevepapa.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@angular/common": "2.0.0",
-    "@angular/compiler": "2.0.0",
-    "@angular/core": "2.0.0",
-    "zone.js": "^0.6.23",
-    "rxjs": "5.0.0-beta.12"
+  "peerDependencies": {
+    "@angular/core": "2.0.0"
   },
   "devDependencies": {
-    "typescript": "^2.0.2"
+    "@angular/core": "2.0.0",
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "bootstrap": "^3.3.6",
+    "chai": "^3.4.1",
+    "del": "^2.2.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.1",
+    "gulp-tslint": "^4.3.1",
+    "gulpclass": "^0.1.0",
+    "mocha": "^2.3.2",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.12",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "systemjs": "0.19.27",
+    "tslint": "^3.3.0",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.6",
+    "zone.js": "^0.6.17"
   }
 }
