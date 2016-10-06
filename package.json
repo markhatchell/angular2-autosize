@@ -4,7 +4,7 @@
   "description": "Directive that automatically adjusts textarea height to fit content",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "tsc -p src"
+    "build": "copy package.json lib/package.json && tsc -p src"
   },
   "repository": {
     "type": "git",
