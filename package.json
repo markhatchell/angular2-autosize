@@ -2,7 +2,6 @@
   "name": "angular2-autosize-dumpen",
   "version": "1.0.2",
   "description": "Directive that automatically adjusts textarea height to fit content",
-  "main": "lib/index.d.ts",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "tsc -p src"
