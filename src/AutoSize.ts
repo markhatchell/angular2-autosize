@@ -1,6 +1,6 @@
-﻿import { Directive, ElementRef, HostListener } from "@angular/core";
+﻿import { Component, ElementRef, HostListener } from "@angular/core";
 
-@Directive({
+@Component({
     selector: "textarea[autosize]"
 })
 export class AutoSize {
