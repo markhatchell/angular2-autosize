@@ -5,8 +5,7 @@ import { AutoSize } from "./AutoSize";
 @NgModule({
     imports: [CommonModule],
     declarations: [AutoSize],
-    exports: [AutoSize],
-    entryComponents: [AutoSize]
+    exports: [AutoSize]
 })
 export class AutoSizeModule {
 }
