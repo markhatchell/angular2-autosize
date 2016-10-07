@@ -25,7 +25,13 @@ export class AutoSize {
 
     replaceLinebreaks() {
         if (this.disableLinebreak) {
-            this.element.nativeElement.value = this.replaceAll(this.element.nativeElement.value, "\n\r", "");
+            let value = this.element.nativeElement.value;
+
+            value = this.replaceAll(value, "\n\r", "");
+            value = this.replaceAll(value, "\n", "");
+            value = this.replaceAll(value, "\r", "");
+
+            this.element.nativeElement.value = value;
         }
     }
 
