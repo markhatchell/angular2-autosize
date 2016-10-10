@@ -3,13 +3,6 @@ import { Directive, ElementRef, Input, HostListener } from "@angular/core";
     selector: "textarea[autosize]"
 })
 export class AutoSize {
-    @Input() disableLinebreak: boolean = false;
-
-    @HostListener("keydown.enter", ["$event.target"])
-    onKeydownEnter(): boolean {
-        return !this.disableLinebreak;
-    }
-
     @HostListener("input", ["$event.target"])
     onInput(textArea: HTMLTextAreaElement): void {
         this.adjust();
