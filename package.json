@@ -27,7 +27,7 @@
     "@angular"
   ],
   "peerDependencies": {
-    "@angular/core": "2.0.0"
+    "@angular/core": "~4.0.0"
   },
   "devDependencies": {
     "@angular/core": "~4.0.0",
@@ -48,14 +48,14 @@
     "gulpclass": "^0.1.0",
     "mocha": "^2.3.2",
     "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "5.0.1",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
-    "systemjs": "0.19.27",
+    "systemjs": "0.19.40",
     "tslint": "^3.3.0",
     "tslint-stylish": "^2.1.0-beta",
     "typescript": "^1.8.2",
     "typings": "^0.6.6",
-    "zone.js": "^0.6.17"
+    "zone.js": "^0.8.4"
   }
 }
