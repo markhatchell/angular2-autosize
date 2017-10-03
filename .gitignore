@@ -1,6 +1,7 @@
-typings/
-build/
 node_modules
 npm-debug.log
 yarn.lock
 .vs
+.vscode
+dist
+.tmp

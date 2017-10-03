@@ -1,0 +1,46 @@
+{
+    "name": "angular-autosize-dumpen",
+    "version": "1.0.0",
+    "description": "Simple tooltip control for your angular2 applications using bootstrap3.",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "keywords": [
+      "angular",
+      "angular2",
+      "angular4",
+      "autosize",
+      "textarea",
+      "elastic",
+      "height",
+      "@angular"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Dumpen/angular2-autosize"
+    },
+    "bugs": {
+      "url": "https://github.com/Dumpen/angular2-autosize/issues"
+    },
+	"main": "bundles/autosize.umd.min.js",
+	"module": "index.js",
+	"typings": "index.d.ts",
+	"author": {
+		"name": "",
+		"email": ""
+	},
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"bugs": {
+		"url": ""
+	},
+	"peerDependencies": {
+		"@angular/core": "^2.4.0",
+		"reflect-metadata": "^0.1.8",
+		"rxjs": "^5.0.1",
+		"zone.js": "^0.7.2"
+	}
+}
