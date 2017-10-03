@@ -1,1 +1,1 @@
-export { AutoSizeModule } from "./AutoSizeModule";
+export { AutoSizeModule } from './auto-size.module';

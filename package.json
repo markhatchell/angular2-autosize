@@ -1,14 +1,15 @@
 {
   "name": "angular-autosize-dumpen",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/bundles/autosize.umd.js",
+  "module": "dist/index.js",
   "scripts": {
     "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.metadata.json dist/index.js dist/index.js.map dist/LICENSE dist/README.md",
     "bundling": "rollup -c",
     "minify": "uglifyjs dist/bundles/autosize.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/autosize.umd.min.js",
     "copy": "copyfiles LICENSE README.md dist",
     "build": "npm run cleanup && ngc && npm run bundling && npm run minify && npm run copy",
-    "publish": "cd dist && npm publish"
+    "publish-to-npm": "cd dist && npm publish"
   },
   "dependencies": {
     "@angular/core": "^2.4.0",
