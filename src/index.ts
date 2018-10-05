@@ -1,0 +1,1 @@
+export { AutoSizeModule } from './auto-size.module';
